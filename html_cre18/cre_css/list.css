@@ -12,6 +12,7 @@
   a{
     text-decoration: none;
   }
+
   @media screen and (min-width: 700px) {
   .list_box{
     display: flex;
@@ -82,8 +83,24 @@
 
 /*  */
 
-
+@media screen and (min-width: 300px) {
 table {
+    line-height:50px;
+    border-collapse: collapse;
+    width:300px;
+    margin:0 auto;
+  
+  }
+  table th, table td {
+    text-align:center;
+    border: solid 2px black;
+    font-size:14px;
+    /*実線 1px 黒*/
+  }}
+
+
+ @media screen and (max-width: 300px) {
+  table {
     line-height:50px;
     border-collapse: collapse;
     width:500px;
@@ -93,7 +110,6 @@ table {
   table th, table td {
     text-align:center;
     border: solid 2px black;
-    font-size:20px;
+    font-size:18px;
     /*実線 1px 黒*/
-  }
-
+  }}
