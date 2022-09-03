@@ -1,0 +1,326 @@
+
+/* html, body{background: rgb(236, 240, 241);} */
+.content{
+    background-color:black;
+}
+
+
+.red{
+  
+  font-size:25px;
+}
+
+h4{
+  font-size:20px;
+  color:red;
+}
+
+a{
+  color:white;
+}
+
+.content_box_top{
+  text-align: center;
+  padding-top:50px;
+}
+
+.white{
+  color:white;
+  font-size:30px;
+}
+
+/* content */
+
+.content_box{
+background-color:gray;
+height:100px;
+margin-top:30px;
+margin-bottom:30px;
+}
+.c_item{
+  color:white;
+  font-size:20px;
+  width:400px;
+  margin:0 auto;
+}
+
+/* tag next*/
+
+.tag{
+  background-color:purple;
+}
+
+.next{
+  background-color:purple;
+}
+
+/*  */
+
+.top{  
+    background-image:url(../../img/青い空.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:300px;
+    
+    
+  
+    margin: 0;
+    color: #2c2c2f;
+    border-top: solid 5px red;
+    border-bottom: solid 5px red;
+}
+
+.top_item{
+    padding: 0;
+    font-size:30px;
+    color:pink;
+    text-align: center;
+    border-bottom:2px solid indigo;
+    border-top:2px solid indigo;
+    width: 170px;
+    margin:0 auto;
+    line-height: 60px;
+     margin-top: 70px;
+}
+
+/*  */
+h3{
+    margin-top:20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 21px; 
+    color:#06D6A0;
+    justify-content: center;
+}
+
+/*  */
+.prof{
+  background: #cde4ff;
+  border-top: solid 5px #5989cf;
+  border-bottom: solid 5px #5989cf;
+  text-align: center;
+}
+
+/*  */
+
+.chara{
+
+
+
+
+}
+.chara_top{
+  
+}
+.chara_list{
+width:350px;
+margin:0 auto;
+font-size:15px;
+}
+.line{
+text-decoration: line-through;
+}
+
+
+
+
+/*  */
+
+/*  */
+
+.card {
+    padding-top:20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+       
+
+
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+  }
+  
+.box1 {
+    background-color:orange;
+    width: 350px;
+    height: 300px;
+    font-size: 32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+    
+.box1:hover #shape{
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06D6A0;
+    }
+
+.box1 img{
+ width:350px;
+ height: 250px;
+}
+
+.box_text{
+    text-align: center;
+    font-size: 15px;
+  }
+
+/*  */
+
+
+
+  /*  */
+
+  #shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #009FFD;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+  }
+
+/*  */
+
+
+
+/*  */
+
+
+
+
+@media screen and (min-width: 768px) {
+  .bottom_list{
+    background-color:black;
+    border-bottom: solid 5px #5989cf; 
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .bottom_list img{
+    width:50px;
+    height:50px;
+    margin:10px;
+   
+  
+  
+  }}
+  /*  */
+  
+  
+  @media screen and (max-width: 768px) {
+    .bottom_list{
+      background-color:black;
+      border-top: solid 5px #5989cf;
+      border-bottom: solid 5px #5989cf; 
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .bottom_list img{
+      width:50px;
+      height:50px;
+      margin:20px;
+     
+    
+  }}
+  .copy{
+    
+    background-color: #000;
+    color:white;
+    padding:10px;
+  }
+  
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800); */
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+  font: 300 1em/1.5 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-decoration: none;
+  color: #111;
+}
+
+.next{
+    color: #2c2c2f;
+   text-align: center;
+    border-bottom: solid 5px #5989cf;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+  /* section.container{  */
+.container{
+    
+    font-size:10px;
+   
+    
+    
+  }
+    a:hover{border-bottom: 1px solid #111;} 
+    /* h1{font-size: 2em; padding: 20px 0;} */
+    p{
+      font-size:7px;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 2px; */
+      padding: 20px ; 
+      }
+
+    button:hover{cursor: pointer}
+    button {
+      margin-bottom:20px;
+      background: transparent; outline: none;
+      position: relative;
+      border: 3px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+      background-color:orange;
+    }
+
+    /*button:before (attr data-hover) */
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      
+    　color:black;
+      content: attr(data-hover);
+      position: absolute;
+      top: 0; left: 0;
+
+      line-height: 45px;
+      width: 100%;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 3px;  */
+      font-weight: 800;
+      font-size:10px;
+      opacity: 0;
+     transform: translate(100%,0);
+      transition: all .3s ease-in-out;
+      background-color: rgb(162, 88, 162); 
+      height: 100%;
+    
+    }
+      /*button div (button text before hover)*/
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-weight: 800;
+        font-size:10px;
+        transition: all .3s ease-in-out;
+      }
+
+/*  */

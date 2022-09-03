@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(194, 192, 192);
+    
+}
+
+.top{
+    text-align: center;
+    background-color:black;
+    line-height:50px;
+    font-weight:900;
+    font-size:30px;
+    color: red;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+}
+
+.zawa{
+    font-size:20px;
+    font-weight:900;
+    margin-right:500px;
+}
+.zawa2{
+    font-size:20px;
+    font-weight:900;
+    margin-left:500px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+   
+    width:500px;
+    margin:0 auto;
+
+    background-color: aliceblue;
+  }
+  table th, table td{
+    border: solid 2px black;
+    /*実線 1px 黒*/
+    line-height: 20px;
+  }
+
+  .pokemon{
+    line-height:30px;
+  }
+ 
+  .text{
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .text3{
+    background-color: black;
+    color:white;
+  }
+
+  .rule{
+    width:500px;
+    margin:0 auto;
+    line-height: 20px;
+
+  }
+  .rule1{
+    border: 2px solid black;
+    width:496px;
+  }
+
+  .back{
+    padding-top:30px;
+    font-size:20px;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+
+}
+
+.pokemon{
+    font-weight:700;
+}

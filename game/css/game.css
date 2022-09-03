@@ -1,0 +1,109 @@
+
+.game{
+    background-color: antiquewhite;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 80％;
+    text-align: center;
+}
+h4{
+    color:coral;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+li{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+/*  */
+.top{
+     background-color: #f4a006;
+   
+    
+}
+
+.top_t{
+    padding:50px;
+   text-align: center;
+}
+.text{
+    background-color: coral;
+    font-size:20px;
+    
+}
+
+/*  */
+
+bottom_list img{
+    width:50px;
+    height:50px;
+}
+
+/*  */
+
+.list_design026 {
+ background-color: rgba(255, 68, 0, 0.323);
+
+ padding-top:40px;
+ padding-bottom:40px;
+   text-align: center;
+   line-height: 60px;
+   font-size:25px;
+ 
+    list-style: none; 
+    width:100%;
+  }
+  
+  .list_design026 li {
+　  
+    margin: 3px 1rem;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  .list_design026 li::after {
+    position: absolute;
+    bottom: -4px;
+    left:0;
+    content: '';
+
+    margin-left:15%;
+
+    width: 70%;
+    height: 2px;
+    background: #f4a006;
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  
+  .list_design026 li:hover::after {
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+
+  .back{
+    background-color: rgba(255, 68, 0, 0.323);
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    padding-bottom:40px;
+  }

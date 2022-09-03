@@ -1,0 +1,46 @@
+.list_design026 {
+ margin-top:40px;
+   text-align: center;
+   line-height: 60px;
+   font-size:30px;
+ 
+    list-style: none;
+  }
+  
+  .list_design026 li {
+　  width:100%;
+    margin: 3px 1rem;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  
+  .list_design026 li::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f4a006;
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+  }
+  
+  .list_design026 li:hover::after {
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }

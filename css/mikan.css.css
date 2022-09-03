@@ -1,0 +1,418 @@
+
+.hamburger {
+  display : block;
+  position: fixed;
+  z-index : 3;
+  right : 13px;
+  top   : 12px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #555;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 10px;
+}
+.hamburger span:nth-child(2) {
+  top: 20px;
+}
+.hamburger span:nth-child(3) {
+  top: 30px;
+}
+
+/* ナビ開いてる時のボタン */
+.hamburger.active {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition     : all 0.3s ease-in-out;
+  transition        : all 0.3s ease-in-out;
+  -webkit-transition-delay: 0.7s;
+  -o-transition-delay     : 0.7s;
+  transition-delay        : 0.7s;
+  -webkit-transform: rotate(45deg);
+  -ms-transform    : rotate(45deg);
+  -o-transform     : rotate(45deg);
+  transform        : rotate(45deg);
+}
+.hamburger.active span:nth-child(2){
+  width: 0px;
+}
+.hamburger.active span:nth-child(1),
+.hamburger.active span:nth-child(3){
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.hamburger.active span:nth-child(1){
+  -webkit-transform: translateY(4px);
+  -ms-transform    : translateY(4px);
+  -o-transform     : translateY(4px);
+  transform        : translateY(4px);
+}
+
+.hamburger.active span:nth-child(3){
+  -webkit-transform: translateY(-16px) rotate(90deg);
+  -ms-transform: translateY(-16px) rotate(90deg);
+  -o-transform : translateY(-16px) rotate(90deg);
+  transform    : translateY(-16px) rotate(90deg);
+}
+
+
+nav.globalMenuSp {
+  position: fixed;
+  z-index : 2;
+  top  : 0;
+  left : 0;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  transform: translateY(-100%);
+  transition: all 0.9s;
+  width: 100%;
+}
+
+nav.globalMenuSp ul {
+  background: #ccc;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+nav.globalMenuSp ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+nav.globalMenuSp ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+nav.globalMenuSp ul li:hover{
+  background :#ddd;
+}
+
+nav.globalMenuSp ul li a {
+  display: block;
+  color: #000;
+  padding: 1em 0;
+  text-decoration :none;
+}
+
+/* このクラスを、jQueryで付与・削除する */
+nav.globalMenuSp.active {
+  transform: translateY(0%);
+}
+
+/*  */
+
+/* html, body{background: rgb(236, 240, 241);} */
+.content{
+    background-color:skyblue;
+}
+
+
+.top{  
+    background-image:url(../img/青い空.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    
+    
+  
+    margin: 0;
+    color: #2c2c2f;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+}
+
+.top_item{
+    padding: 0;
+    font-size:30px;
+    color:orange;
+    text-align: center;
+    border-bottom:2px solid greenyellow;
+    border-top:2px solid greenyellow;
+    width: 170px;
+    margin:0 auto;
+    line-height: 60px;
+     margin-top: 70px;
+}
+
+/*  */
+h3{
+    
+    text-align: center;
+    line-height: 30px;
+    font-size: 21px; 
+    color:red;
+    justify-content: center;
+}
+
+/*  */
+
+.prof{
+    background: #cde4ff;
+    border-bottom:solid 5px #5989cf;
+    
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height:30px;
+}
+
+.prof_text{
+  width:300px;
+    margin:0 auto;
+    border-bottom:2px solid #009FFD;
+}
+.prof_box{
+  font-size:20px; ;
+  border-left:solid 2px blue;
+   
+}
+
+.prof_item{
+  color:red;
+  font-size:15px;
+ 
+}
+
+.prof_img{
+  text-align:center;
+}
+.prof img{
+  border-radius:50%;
+  width: 100px;
+  height:100px;
+}
+
+
+/*  */
+.info{ 
+ 
+  width:100%;
+  height:200px;
+  margin:0 auto; 
+  overflow: scroll;
+    border-top:5px solid #009FFD;
+
+  border-left:2px solid black ;
+  border-right:2px solid black ;
+  background-color: #009FFD;
+}
+ 
+.info-item{
+  text-align: center;
+  background-color:aqua;
+}
+.info-top{
+font-size: 30px;
+}
+.inbox{
+ 
+  
+  height: auto;
+  font-size:20px;
+  background-color: aquamarine;
+  margin:0 auto;
+}
+
+/*  */
+
+.card {
+    padding-top:20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+       
+
+
+    background: #cde4ff;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+  }
+  
+.box1 {
+    background-color:orange;
+    width: 350px;
+    height: 300px;
+    font-size: 32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+    
+.box1:hover #shape{
+    stroke-dasharray: 50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06D6A0;
+    }
+
+.box1 img{
+ width:350px;
+ height: 250px;
+}
+
+.box_text{
+    text-align: center;
+    font-size: 15px;
+  }
+
+
+
+  /*  */
+
+  #shape {
+    stroke-width: 6px;
+    fill: transparent;
+    stroke: #009FFD;
+    stroke-dasharray: 85 400;
+    stroke-dashoffset: -220;
+    transition: 1s all ease;
+  }
+
+
+
+/*  */
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800); */
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+  font: 300 1em/1.5 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-decoration: none;
+  color: #111;
+}
+
+.next{
+    color: #2c2c2f;
+   text-align: center;
+    border-bottom: solid 5px #5989cf;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+  /* section.container{  */
+.container{
+    
+    font-size:10px;
+   
+    
+    
+  }
+    a:hover{border-bottom: 1px solid #111;} 
+    /* h1{font-size: 2em; padding: 20px 0;} */
+    p{
+      font-size:7px;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 2px; */
+      padding: 20px ; 
+      }
+
+    button:hover{cursor: pointer}
+    button {
+      margin-bottom:20px;
+      background: transparent; outline: none;
+      position: relative;
+      border: 3px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+      background-color:orange;
+    }
+
+    /*button:before (attr data-hover) */
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      
+    　color:black;
+      content: attr(data-hover);
+      position: absolute;
+      top: 0; left: 0;
+
+      line-height: 45px;
+      width: 100%;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 3px;  */
+      font-weight: 800;
+      font-size:10px;
+      opacity: 0;
+     transform: translate(100%,0);
+      transition: all .3s ease-in-out;
+      background-color: rgb(162, 88, 162); 
+      height: 100%;
+    
+    }
+      /*button div (button text before hover)*/
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-weight: 800;
+        font-size:10px;
+        transition: all .3s ease-in-out;
+      }
+
+/*  */
+
+@media screen and (min-width: 768px) {
+.bottom_list{
+  background-color:black;
+  border-bottom: solid 5px #5989cf; 
+  display: flex;
+	justify-content: center;
+
+}
+
+.bottom_list img{
+  width:50px;
+  height:50px;
+  margin:10px;
+ 
+
+
+}}
+/*  */
+
+
+@media screen and (max-width: 768px) {
+  .bottom_list{
+    background-color:black;
+    border-bottom: solid 5px #5989cf; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bottom_list img{
+    width:50px;
+    height:50px;
+    margin:20px;
+   
+  
+}}
+.copy{
+  
+  background-color: #000;
+  color:white;
+  padding:10px;
+}
