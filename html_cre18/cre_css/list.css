@@ -82,11 +82,13 @@
 
 /*  */
 
+
 table {
     line-height:50px;
     border-collapse: collapse;
-    width:600px;
+    width:500px;
     margin:0 auto;
+  
   }
   table th, table td {
     text-align:center;
@@ -94,3 +96,4 @@ table {
     font-size:20px;
     /*実線 1px 黒*/
   }
+
