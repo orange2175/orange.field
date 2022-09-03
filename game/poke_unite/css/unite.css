@@ -4,6 +4,9 @@ body{
 }
 
 .top{
+
+    width:100%;
+
     text-align: center;
     background-color:black;
     line-height:50px;
@@ -14,6 +17,10 @@ body{
   text-stroke: 1px #FFF;
 }
 
+.ama{
+  font-size:30px;
+}
+
 .zawa{
     font-size:20px;
     font-weight:900;
@@ -22,14 +29,16 @@ body{
 .zawa2{
     font-size:20px;
     font-weight:900;
-    margin-left:500px;
+    margin-left:100px;
 }
+
+
 
 table {
     border-collapse: collapse;
     text-align: center;
    
-    width:500px;
+    width:350px;
     margin:0 auto;
 
     background-color: aliceblue;
@@ -56,14 +65,17 @@ table {
   }
 
   .rule{
-    width:500px;
+    width:350px;
     margin:0 auto;
     line-height: 20px;
 
   }
   .rule1{
-    border: 2px solid black;
-    width:496px;
+    
+    width:350px;
+    background-color: aliceblue;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
   }
 
   .back{
