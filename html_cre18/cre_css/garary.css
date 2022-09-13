@@ -56,10 +56,13 @@
 
 
 .gallery{
-  background-color:aqua;
+  /* background-color:aqua; */
   width:300px;
   margin:0 auto; 
+
   padding-top:30px;
+  padding-bottom:30px;
+  
 
 }
 
@@ -81,4 +84,28 @@
 .gallery img{
   width:150px;
   height:150px;
+}
+/*  */
+.scroll{
+
+
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  border: solid 2px #696969;
+}
+
+.scroll img{
+  width:300px;
+  height:400px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff8095;
+  border: 2px outset #e6a1ab;
 }
