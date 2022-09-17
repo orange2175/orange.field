@@ -1,3 +1,5 @@
+
+
 .top{
     background-color:pink;
     font-size:20px;
@@ -22,7 +24,7 @@
   
   .list{
     color:blue;
-    margin:20px;
+    margin:20px; 
 
     height:30px;
     line-height:30px;
@@ -38,7 +40,7 @@
     
     .list{
         color:blue;
-      margin:20px;
+    margin:20px;
       
     }}
   
@@ -47,14 +49,14 @@
 .over_text{
     font-size: 20px;
     text-align:center;
-    line-height: 40px;
+  line-height: 40px; 
 }
 /*  */
 
 
 .story{
     font-size:40px;
-    line-height: 60px;
+    /* line-height: 60px; */
     text-align: center;
     color:rgb(228, 173, 182);
     background-color: fuchsia;
@@ -63,7 +65,8 @@
 
 .text_top{
     background-color: pink;
-    padding-top:60px;
+    padding: 30px;
+   
 }
 
 .text{
@@ -72,29 +75,35 @@
     /* width:600px; */
     /* margin:0 auto; */
     font-size:20px;
-    line-height:50px;
+    /* line-height:50px; */
     color:rgb(252, 210, 217);
     font-weight:800;
 }
 
 .text1{
-    padding-top:20px;
+    padding-top:20px; 
+}
+
+.color{
+  background-color: aqua;
 }
 
 /*  */
 
 @media screen and (min-width: 300px) {
 table {
-    line-height:50px;
+    line-height:30px;
     border-collapse: collapse;
-    width:300px;
+    width:330px;
+    
     margin:0 auto;
   
   }
   table th, table td {
-    text-align:center;
+    /* text-align:center; */
     border: solid 2px black;
     font-size:14px;
+    padding:10px;
     /*実線 1px 黒*/
   }}
 
@@ -104,12 +113,62 @@ table {
     line-height:50px;
     border-collapse: collapse;
     width:500px;
+   
     margin:0 auto;
   
   }
   table th, table td {
-    text-align:center;
+    /* text-align:center; */
     border: solid 2px black;
     font-size:18px;
-    /*実線 1px 黒*/
+    /* padding:10px; */
+    /*実線 1px 黒*/ 
   }}
+
+
+  /*  */
+/*ベース*/
+.toggle {
+	display: none;
+}
+.Label {		/*タイトル*/
+	padding: 1em;
+	display: block;
+	color: #fff;
+	background:#019ac6;
+  width:200px;
+  margin:0 auto;
+}
+.Label::before{		/*タイトル横の矢印*/
+	content:"";
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	position: absolute;
+	top:calc( 50% - 3px );
+	right: 20px;
+	transform: rotate(135deg);
+}
+.Label,
+.content {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: all 0.3s;
+}
+.content {		/*本文*/
+	height: 0;
+	margin-bottom:10px;
+	padding:0 20px;
+	overflow: hidden;
+}
+.toggle:checked + .Label + .content {	/*開閉時*/
+	height: auto;
+	padding:20px ;
+	transition: all .3s;
+}
+.toggle:checked + .Label::before {
+	transform: rotate(-45deg) !important;
+}
