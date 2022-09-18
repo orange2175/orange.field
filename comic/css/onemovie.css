@@ -1,0 +1,65 @@
+.top{
+    width:280px;
+    margin:0 auto;
+    line-height:20px;
+    padding-top:20px;
+}
+
+.top_box{
+    background-color: aquamarine;
+    padding:10px;
+}
+
+.top_a{
+    background-color:aqua;
+    font-size:25px;
+    text-align: center;
+    padding:10px;
+}
+
+/*  */
+
+.red{
+    color:red;
+}
+
+.text{
+    font-size:20px;
+    font-weight:800;
+    background-color: antiquewhite;
+}
+
+.content{
+    width:320px;
+    margin:0 auto;
+    line-height:20px;
+    padding-top:20px;
+}
+
+.c_item{
+    border-top:2px solid black;
+    padding-top:20px;
+    padding-bottom:20px;
+    line-height: 30px;
+}
+
+.c_item2{
+    border-bottom:2px solid black;
+}
+
+
+
+
+
+
+.back{
+    padding:10px;
+    text-align:center;  
+}
+
+.copy{
+    background-color:black;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
