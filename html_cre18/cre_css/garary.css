@@ -109,3 +109,8 @@
   background: #ff8095;
   border: 2px outset #e6a1ab;
 }
+
+span{
+  color:red;
+  font-size:25px;
+}
