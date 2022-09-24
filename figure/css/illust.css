@@ -6,11 +6,38 @@
     height:150px;
 }
   .center {
-    font-size: 100px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .hiden{
+    background-color: black;
+    color:white;
+    padding:5px;
+    text-align: center;
+}
 /*  */
 
+.red{
+  color:red;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*  */
+
+.content{
+  width:330px;
+  margin:0 auto;
+
+}
+
+.back{
+  text-align: center;
+  padding-top:30px;
+}
