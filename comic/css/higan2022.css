@@ -1,8 +1,123 @@
+/*　ハンバーガーボタン　*/
+.hamburger {
+    display : block;
+    position: fixed;
+    z-index : 3;
+    right : 13px;
+    top   : 20px;
+    width : 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+
+    
+  }
+  .hamburger span {
+    display : block;
+    position: absolute;
+    width   : 30px;
+    height  : 2px ;
+    left    : 6px;
+    background : #555;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition   : 0.3s ease-in-out;
+    transition        : 0.3s ease-in-out;
+  }
+  .hamburger span:nth-child(1) {
+    top: 10px;
+  }
+  .hamburger span:nth-child(2) {
+    top: 20px;
+  }
+  .hamburger span:nth-child(3) {
+    top: 30px;
+  }
+  
+  /* ナビ開いてる時のボタン */
+  .hamburger.active span:nth-child(1) {
+    top : 16px;
+    left: 6px;
+    background :#fff;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform   : rotate(-45deg);
+    transform        : rotate(-45deg);
+  }
+  
+  .hamburger.active span:nth-child(2),
+  .hamburger.active span:nth-child(3) {
+    top: 16px;
+    background :#fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform   : rotate(45deg);
+    transform        : rotate(45deg);
+  }
+  
+  nav.globalMenuSp {
+    position: fixed;
+    z-index : 2;
+    top  : 0;
+    left : 0;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .6s ease, visibility .6s ease;
+    visibility: hidden;
+  }
+  
+  nav.globalMenuSp ul {
+
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+
+  }
+
+  nav.globalMenuSp.active {
+    opacity: 100;
+    visibility: visible;
+  }
+  
+  nav.globalMenuSp ul li {
+    font-size:23px;
+
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    transition: .4s all;
+
+    background :black;
+  }
+  nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+  }
+  nav.globalMenuSp ul li:hover{
+    background :gray;
+  }
+  
+  nav.globalMenuSp ul li a {
+    display: block;
+    color: #fff;
+    padding:5.8%;
+    /* padding: 2em 0; */
+    text-decoration :none;
+    background :;
+  }
+  
+  /* このクラスを、jQueryで付与・削除する */
+  nav.globalMenuSp.active {
+    opacity: 100;
+  
+  }
+/*  */
+
+
 .box9 {
   
     
     background:black;
-    border-top: solid 10px gray;
+    border-top: solid 10px black;
     width:320px;
     margin:0 auto;
     padding:20px;
@@ -23,7 +138,7 @@ table th,td{
     border:1px solid white;
     line-height: 20px;
     padding:5px;
-    font-size:13px;
+    font-size:10px;
 
     background-color: black;
     color:white;
@@ -45,7 +160,7 @@ table th,td{
     /*  */
 
 .red{
-    color:red;
+    color:whitesmoke;
     font-size:20px; 
 }
 
@@ -65,12 +180,21 @@ table th,td{
 
 .top{
 
-    width:320px;
-    margin:0 auto;
+   
     line-height: 25px;
-    padding-top:40px;
-    background-color: azure;
+    padding:20px;
+    background-color:gray;
 }
 .top_c2{
     padding-top:20px;
+  }
+
+.top_b{
+  background-color:red ;
+  padding:10px;
 }
+.top_c{
+  color:white;
+}
+/////
+
