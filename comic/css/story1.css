@@ -1,0 +1,58 @@
+.title{
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    text-align: center;
+   padding: 20px;
+}
+
+.inquiry{
+    background-color: black;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+
+.question{
+    background-color: black;
+    padding:20px;
+}
+.q1{
+    color:white;
+    line-height: 25px;
+    padding-bottom:20px;
+}
+span{
+    color:brown;
+    font-size:20px ;
+}
+
+
+.btn-container{
+    padding-bottom: 20px;
+   }
+ 
+  
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  .hidden {
+    display: none;
+    
+  }
+  
+  #btn2-text{
+    margin: 16px 0;
+    font-size: 18px;
+    color: red;
+  }
+ 
+  
+.back{
+    font-size:25px;
+    text-align: center;
+    padding-top:20px;
+    background-color: black;
+    padding:30px;
+}
