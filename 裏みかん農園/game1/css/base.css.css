@@ -1,0 +1,32 @@
+.color{
+    background-color: rgba(215, 65, 215, 0.219);
+}
+
+.top{
+    background-color: blueviolet;
+    padding:10px;
+    font-size:25px;
+    text-align: center;
+}
+.inquiry{
+   padding:20px;
+    
+}
+.content{
+    padding:20px;
+}
+.content_item{
+    font-size:25px;
+    background-color: blueviolet;
+    width:200px;
+}
+.img{
+    
+    padding:20px;
+    width:150px;
+    height:150px;
+}
+.back{
+    
+    text-align:center;
+}
