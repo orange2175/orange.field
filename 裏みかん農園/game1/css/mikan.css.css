@@ -62,3 +62,9 @@
     text-align: center;
     padding:20px;
 }
+
+.contents_box{
+    height:200px;
+    background-color: rgba(127, 210, 255, 0.605);
+    overflow: scroll;
+  }
