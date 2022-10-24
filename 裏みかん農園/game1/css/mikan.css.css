@@ -17,14 +17,17 @@
     border: solid 1px #000;
     text-align: center;
     padding: 10px;
-    width: 20%;
+    /* width: 40%; */
     margin-right: 5px;
     cursor: pointer;
-    
+
+
+  
 }
 .select-img img {
     display: none;
-    width:100%;
+width:100%;
+ 
     background-color: aliceblue;
 }
 .select-img img:first-child {
