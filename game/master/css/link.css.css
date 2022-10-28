@@ -1,0 +1,80 @@
+.link{
+    background-color: blue;
+    margin:30px;
+    box-shadow: 10px 10px 10px 0px rgba(60, 194, 235, 0.631);
+}
+.link_t{
+    color:aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding:20px;
+}
+
+.line{
+    border-width: 3px 0 0 0;
+	border-style: double;
+	border-color: rgb(60, 194, 235);
+    margin:30px;
+
+}
+
+.top{
+
+    padding-bottom:30px;
+
+    background-color: blue;
+    margin:30px;
+}
+
+p{  padding:30px;
+    color:aliceblue;
+}
+
+.c_top{
+    background-color: aliceblue;
+    color:black;
+    text-align: center;
+    font-size:30px;
+}
+
+.image{
+    width:300px;
+    height:250px;
+}
+.image1{
+    width:300px;
+    height:600px;
+}
+.image_box{
+    text-align: center;
+}
+
+/*  */
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: rgba(0, 149, 255, 0.856);
+}
+.brown{
+    background-color: brown;
+}
+.purple{
+    background-color:blueviolet;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+
+.bottom{
+    background-color: black;
+   
+}
+.copy{
+   
+    text-align: center;
+}
