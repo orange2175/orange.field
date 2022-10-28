@@ -55,6 +55,16 @@ display: flex;
     margin-right:30px;
 }}
 
+.fes{
+  text-align: center;
+  padding:10px;
+  
+}
+.fes1{
+  font-size:30px;
+}
+
+
 @media screen and (max-width:768px){
 
 .deck_box{
