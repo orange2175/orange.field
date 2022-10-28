@@ -69,6 +69,17 @@ h1{
     padding:10px;
   }
 
+.fes{
+  text-align: center;
+  padding:10px;
+  
+}
+.fes1{
+  font-size:30px;
+}
+
+
+
 /*  */
 
 @media screen and (min-width: 768px) {
