@@ -1,0 +1,17 @@
+.text{
+    background-color: black;
+    color:aliceblue;
+    padding:50px;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.small{
+    font-size:188px;
+    color:antiquewhite
+}
+.line{
+    text-decoration: line-through;
+}
