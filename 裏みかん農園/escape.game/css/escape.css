@@ -1,0 +1,59 @@
+.top{
+    background-color: aliceblue;
+    line-height:40px;
+
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size:15px;
+    background-color:gainsboro;
+    padding:20px;
+    line-height:40px;
+}
+
+.text2{
+    text-align: center;
+    background-color:gainsboro;
+    font-size:15px;
+    padding:40px;
+}
+.text2 img{
+    
+    width:300px;
+    height:300px;
+}
+.rule{
+    line-height: 30px;
+}
+
+.text3{
+    padding:20px;
+    background-color:gainsboro;
+}
+
+.text4{
+    padding:20px;
+    background-color:gainsboro;
+}
+.content{
+    text-align:center;
+    font-size:30px;
+
+}
+
+.text5{
+    padding:20px;
+    background-color:gainsboro;
+    line-height: 45px;
+}
+
+.item{
+    text-align: center;
+}
+
+.back{
+    text-align: center;
+    padding:20px;
+    background-color:gainsboro;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>みかん農園</title>
+
+<link rel="stylesheet" href="../css/reset.css"/> 
+<link rel="stylesheet" href="css/mikan.css.css"/> 
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="top">
+
+
+<p class="text">
+
+    <img src="img/escape1 (3).png"><br>
+    どうにか爆弾を切り離すことに成功したソレイユ<br>
+    後は脱出するだけだが、まだ扉は固く閉ざされている。<br>
+    このままではなんら意味はない。<br>
+
+    （なんとか鍵とかあればいいんだけど......<br>一か八か出て見よっかな）
+
+    
+</p>
+
+
+    <div class="border">
+<p onclick="alert0()"><span onClick="document.all.item('moji0').style.visibility='visible'"><img class="block0" src="img/base.png"></span></p>
+<p onclick="alert1()"><span onClick="document.all.item('moji1').style.visibility='visible'"><img id="es" class="block1" src="img/download.png"></span></p>
+<p onclick="alert2()"><span onClick="document.all.item('moji2').style.visibility='visible'"><img id="es" class="block2" src="img/download1.png"></span></p>
+<p onclick="alert3()"><span onClick="document.all.item('moji3').style.visibility='visible'"><img id="es" class="block3" src="img/download2.png"></span></p>
+<p onclick="alert4()"><span onClick="document.all.item('moji4').style.visibility='visible'"><img id="es" class="block4" src="img/download3.png"></span></p>
+<p onclick="alert5()"><span onClick="document.all.item('moji5').style.visibility='visible'"><img id="es" class="block5" src="img/download3.png"></span></p>
+ </div>
+
+
+
+
+<!--  -->
+
+   
+
+    <!--  -->
+
+    <div class="content">
+        <p class="content_item">◇獲得したアイテム</p>
+    
+    
+    <div ID="moji1" style="visibility:hidden;">
+        針金
+        </div>
+    
+    <div ID="moji2" style="visibility:hidden;">
+       砂
+        </div>
+    
+     <div ID="moji3" style="visibility:hidden;">
+         爆弾
+
+        </div>
+
+    <div ID="moji4" style="visibility:hidden;">
+        ドライバー
+        </div>
+    </div>   
+    
+<!--  -->
+
+<div class="question">
+    <p class="content_item">◇脱出行動</p>
+
+    <form name="f">
+      
+        <input name="q1" autocomplete="off">
+        <form name="f">
+            <select name="q2">
+            <option>-選択肢-</option>
+            <option>を戸棚に</option>
+            <option>を爆弾に</option>
+            <option>を机に</option>
+            <option>を扉に</option>
+           
+            </select>
+            使う
+            <p>
+   
+    <input type="button"value="回答" onclick="kotae()" >
+        
+    
+    </form>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    <!--  -->
+<script>
+
+
+function alert0() {
+    alert('手は縛られているが足は自由になっている\n今なら自由に動けそうだ');}
+function alert1() {
+    alert('戸棚だ。\n中には針金が入っていた');}
+function alert2() {
+    alert('段ボールの山だ。\n中には砂が詰まっている');}
+function alert3() {
+    alert('爆弾だ。\n今はもう機能を停止している\n中は二重底になっている');}
+function alert4() {
+    alert('机だ。\n中からドライバーがでてきた');}
+function alert5() {
+    alert('扉だ。\n外からカギがかけられている\nだがソレイユの腕なら針金の一本でもあれば鍵開けできる');}
+
+
+
+function kotae()
+{
+if(f.q1.value == "ドライバー" && f.q2.value == "を爆弾に")
+ f.q1.value=document.location.href = 'escape.page4.html';
+else if(f.q1.value == "針金" && f.q2.value == "を扉に")
+ f.q1.value=document.location.href = 'escape.page3-1.html';
+else
+f.q1.value="×"
+}
+
+
+
+</script>
+
+</body>
+</html>
+ <!-- || f.q1.value == "ドライバー" && f.q2.value == "を爆弾に" -->
+<!-- f.q1.value=document.location.href = 'escape.page4.html';  -->
+<!-- } -->
