@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>みかん農園</title>
+
+<link rel="stylesheet" href="../css/reset.css"/> 
+<link rel="stylesheet" href="css/mikan1.css.css"/> 
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="top">
+
+
+<p class="text">
+
+    <img src="img/escape (12).png"><br>
+    ハンガーを使い、狭い隙間に落ちていた<br>
+    「カッターナイフ」で縄を切ることが出来た美代<br>
+    <span class="black">
+        「よしっ……後は逃げるだけ」<br>
+    </span> 
+だが、このままではどうにも心もとない<br>
+何か武器でもあればいいのだがと周囲を見渡すのだった<br>
+    
+</p>
+
+
+    
+<div class="border">
+    <p onclick="alert0()"><span onClick="document.all.item('moji0').style.visibility='visible'"><img class="block0" src="img/base.png"></span></p>
+    <p onclick="alert1()"><span onClick="document.all.item('moji1').style.visibility='visible'"><img id="es" class="block1" src="img/download.png"></span></p>
+    <p onclick="alert2()"><span onClick="document.all.item('moji2').style.visibility='visible'"><img id="es" class="block2" src="img/download1.png"></span></p>
+    <p onclick="alert3()"><span onClick="document.all.item('moji3').style.visibility='visible'"><img id="es" class="block3" src="img/download2.png"></span></p>
+    <p onclick="alert4()"><span onClick="document.all.item('moji4').style.visibility='visible'"><img id="es" class="block4" src="img/download3.png"></span></p>
+    <p onclick="alert5()"><span onClick="document.all.item('moji5').style.visibility='visible'"><img id="es" class="block5" src="img/download3.png"></span></p>
+    <!-- <p onclick="alert6()"><span onClick="document.all.item('moji6').style.visibility='visible'"><img id="es" class="block6" src="img/download2.png"></span></p> -->
+    <p onclick="alert7()"><span onClick="document.all.item('moji7').style.visibility='visible'"><img id="es" class="block7" src="img/download3.png"></span></p>
+    </div>
+
+
+
+
+<!--  -->
+
+   
+
+    <!--  -->
+
+    <div class="content">
+        <p class="content_item">◇獲得したアイテム</p>
+        <div ID="mojix">
+            カッターナイフ
+            </div>
+    <div ID="moji0" style="visibility:hidden;">
+        ハイヒール
+        </div>
+    <div ID="moji1" style="visibility:hidden;">
+         ハンガー
+        </div>
+    
+    <div ID="moji2" style="visibility:hidden;">
+       皿
+        </div>
+    
+     <div ID="moji3" style="visibility:hidden;">
+         ゴミ袋
+
+        </div>
+
+    <div ID="moji4" style="visibility:hidden;">
+      ボールペン
+        </div>
+
+     <div ID="moji7" style="visibility:hidden;">
+            動く机
+              </div>
+
+  
+    <div id="text-button"><p id="text"></p></div>
+
+       
+    </div>   
+    
+<!--  -->
+
+<div class="question">
+    <p class="content_item">◇脱出行動</p>
+
+    <form name="f">
+      
+        <input name="q1" autocomplete="off"><br>
+        
+   を持って部屋から出る
+    
+      
+        
+     
+            <p>
+   
+                <input type="button"value="回答" onclick="kotae();kotae1();" >
+   
+        
+    
+    </form>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    <!--  -->
+<script>
+
+
+function alert0() {
+    alert('縄は解けた\n近くに履いていたハイヒールが落ちている');}
+function alert1() {
+    alert('鉄骨だ。\n上の方に誰がハンガーなんか掛けたんだろう');}
+function alert2() {
+    alert('戸棚だ\n中に皿があった');}
+function alert3() {
+    alert('ゴミ袋だ。\n犯人が食事に持ってきたおにぎりなんかのゴミが入っている\nもう使えそうなものはないだろう');}
+function alert4() {
+    alert('机だ。\n中にボールペンが入っていた');}
+function alert5() {
+    alert('扉だ。\nカギはかけられていないが\n外から犯人の声が聞こえる\n近くにいるようだ');}
+function alert6() {
+    alert('隙間になにかある。\nただ狭くて手も足も届かない');}
+function alert7() {
+    alert('机だ\nもう動かしたくない......');}
+
+
+
+    function kotae()
+{
+if(f.q1.value == "ハイヒール"){
+    f.q1.value=document.location.href = 'escape.page5.html';
+}
+
+else if(f.q1.value == "カッターナイフ")
+ f.q1.value=document.location.href = 'escape.page4-1.html';
+
+else
+f.q1.value= alert('これで勝てる気がしない・・・・・・');
+}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
