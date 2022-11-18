@@ -82,11 +82,17 @@
       机
         </div>
 
-    <div ID="mojix" style="visibility:hidden;">
+    <div ID="moji" style="visibility:hidden;">
             割りばし
-              </div>
+    </div>
+
+    <p id="mojix" onclick="kotae()">割りばし</p>
+    
+
+
     <div id="text-button"><p id="text"></p></div>
 
+   
        
     </div>   
     
@@ -149,11 +155,19 @@ function alert6() {
 function alert7() {
     alert('机だ\n重そうだけどこっちは押せば動くかも');}
 
+
+
+    document.getElementById("mojix").style.display ="none";
+
     function kotae()
 {
+
+        const mojix = document.getElementById("mojix");
 if(f.q1.value == "ゴミ袋" && f.q2.value == "を探る"){
  alert('中から「割りばし」が出て来た');
+ mojix.style.display ="block";
 }
+
 
 else if(f.q1.value == "割りばし" && f.q2.value == "で縄を切る")
  f.q1.value=document.location.href = 'escape.page2.html';
