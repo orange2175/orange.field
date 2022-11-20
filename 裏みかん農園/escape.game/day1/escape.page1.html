@@ -169,13 +169,16 @@ if(f.q1.value == "ゴミ袋" && f.q2.value == "を探る"){
 }
 
 
-else if(f.q1.value == "割りばし" && f.q2.value == "で縄を切る")
+
+else if(f.q1.value == "割りばし" && f.q2.value == "で縄を切る" || f.q1.value == "割り箸" && f.q2.value == "で縄を切る")
  f.q1.value=document.location.href = 'escape.page2.html';
  else if(f.q1.value == "鉄骨" && f.q2.value == "を蹴とばす")
  f.q1.value=document.location.href = 'escape.page1-1.html';
-else
-f.q1.value= alert('この行動は意味がないようだ');
-}
+else{
+f.q1.value= "×";
+alert('この行動は意味がないようだ');
+}}
+
 
 
 
