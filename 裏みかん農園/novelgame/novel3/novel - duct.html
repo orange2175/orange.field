@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>novel2</title>
+
+<link rel="stylesheet" href="css/reset.css"/> 
+<link rel="stylesheet" href="css/game.css"/> 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script> 
+
+ 
+</head>
+<body>
+
+  
+    <div class="cm0">
+        <button class="chan" onclick="action()">次へ</button><br>
+         
+     
+         
+         
+         
+        <div id="cm1" >
+      
+            <img  src="game1/nomal (2).png"><br>
+            <div class="box27">
+                <div class="border">
+                    <span class="box-title"></span>
+                <p data-text-split>   
+              さっきまでガムテープで塞がれてた<br>
+              その方がまだ安心できると思ったのだろう
+            </div>
+       </div>
+        </div>
+      
+        
+         
+       <div id="cm2" style="display:none">
+      
+        <img  src="game1/nomal (2).png"><br>
+          <div class="box27">
+              <div class="border">
+                  <span class="box-title"></span>
+              <p data-text-split> 
+                 ビーッ
+               </p>
+          </div>
+      </div>
+      </div>
+
+<div id="cm3" style="display:none">
+
+    <img  src="game1/duct (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            「んっ……んんっ」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm4" style="display:none">
+
+    <img  src="game1/duct (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            さっきよりも強力なガムテープだ<br>
+            彼女もさぞ驚いていることだろう
+           
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm5" style="display:none">
+
+    <img  src="game1/duct (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+            「んんんんんっ！」
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+
+<div id="cm6" style="display:none">
+
+    <img  src="game1/duct (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            縄をきしませる音が強くなる<br>
+            もう気付いたようだ。
+            
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+
+<div id="cm7" style="display:none">
+
+    <img  src="game1/duct (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+           しかし、ここで大声で叫ばれないよう<br>
+           申し訳ないが外すわけにはいかない
+            
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+<div id="cm8" style="display:none">
+
+    <img  src="game1/duct (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+           その間に事を済ませるつもり為<br>
+           一度彼女を残して隣の部屋へ移る
+           
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm9" style="display:none">
+
+    <img  src="game1/download.png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+        数分後
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm10" style="display:none">
+
+    <img  src="game2/outher (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+        大体のことは済んだ<br>
+        明日、引き渡す手はずとなった
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm11" style="display:none">
+
+    <img  src="game2/outher (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+        さて、彼女は大人しくしているだろうか
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm12" style="display:none">
+
+    <img  src="game1/duct(3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+        「ふぅぅぅ......」
+            
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm13" style="display:none">
+
+    <img  src="game2/outher (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+        少し足掻き疲れてきているようだが<br>
+        こちらを見て睨みつけるくらい威勢がある
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm14" style="display:none">
+
+    <img  src="game2/outher (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       ひとまず、明日解放する旨を彼女に伝えた<br>
+       
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm15" style="display:none">
+
+    <img  src="game2/outher (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      すると少し安心したようにテープの下から息をつく
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm16" style="display:none">
+
+    <img  src="game2/outher (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+           しかし、明日までこのままと言う訳にも<br>
+           いかないだろう
+         </p>
+    </div>
+</div>
+</div>
+  
+<div id="cm16" style="display:none">
+
+    <img  src="game2/outher (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            一度彼女のガムテープを剥がした
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm17" style="display:none">
+
+    <img  src="game1/nomal (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女
+            </span>
+        <p data-text-split> 
+            「ぷはっ......」
+         </p>
+    </div>
+</div>
+</div>
+
+
+
+<div id="cm18" style="display:none">
+
+    <img  src="game1/nomal (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+            口元に少し跡が残ったが続けて<br>
+            縄も解く
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm19" style="display:none">
+
+    <img  src="game1/nomal (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+            口元に少し跡が残ったが続けて<br>
+            縄も解く
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm20" style="display:none">
+
+    <img  src="game2/after (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女
+            </span>
+        <p data-text-split> 
+            「ふぅ......」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm21" style="display:none">
+
+    <img  src="game2/after (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女
+            </span>
+        <p data-text-split> 
+            「なんで急に解いてくれたわけ？」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm22" style="display:none">
+
+    <img  src="game2/after (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+            返す目処がたった<br>
+            食事やトイレ等縛ったままでは不自由な<br>
+            所作を今のうちにやってもらうつもりだ
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm23" style="display:none">
+
+    <img  src="game2/after (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+          無論、それが終わればまた拘束は<br>
+          させてもらう
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm24" style="display:none">
+
+    <img  src="game2/after (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女
+            </span>
+        <p data-text-split> 
+          「だったらシャワーくらい<br>
+          使わせてくれない？」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm25" style="display:none">
+
+    <img  src="game2/after (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+          帰れると分かってか突然図々しくなった
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm26" style="display:none">
+
+    <img  src="game2/after (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+          しかし、もがき続けてたせいだろう<br>
+          どこか汗臭いし、服も汗で湿ってる
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm27" style="display:none">
+
+    <img  src="game2/after (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+          シャワーには窓もないし<br>
+          出たら必ずこの居間を通る<br>
+
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm28" style="display:none">
+
+    <img  src="game2/after (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+         逃げないならという条件付きで許可を出した
+          
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm29" style="display:none">
+
+    <img  src="game2/after (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+         「あらよかった」<br>
+         「でも覗かないでよね」
+          
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm30" style="display:none">
+
+    <img  src="game2/outher (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">
+            </span>
+        <p data-text-split> 
+        などとマセたことを言い残して彼女は<br>
+        シャワー室へと向かっていった
+          
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm31" style="display:none">
+
+    <img  src="game2/outher (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p > 
+          <a href="novel - 2p.html">次へ</a>
+         </p>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<a href="sound/mx36688.wav">
+
+</div>
+
+ 
+   
+  <div class="back">
+   
+<a href="../../裏みかん農園.html">戻る</a>
+  </div>
+
+<script src="js/novel.html"></script>
+     
+<script>
+var count = 0;
+function action(){
+count++;
+if (count == 1){
+    const music = new Audio('sound/nc248162.mp3');
+    music.play();
+} else if (count == 2){
+    const music = new Audio('sound/nc240000.wav');
+    music.play();
+}else if(count == 4){
+    const music = new Audio('sound/nc167182.wav');
+    music.play();
+} else if(count == 5){
+    const music = new Audio('sound/nc100001.wav');
+    music.play();
+} else if(count == 11){
+    const music = new Audio('sound/nc239999.wav');
+    music.play();
+}else if(count == 16){
+    const music = new Audio('sound/nc248162.mp3');
+    music.play();
+}else if(count == 17){
+    const music = new Audio('sound/mx36688.wav');
+    music.play();
+}
+}
+
+
+</script>
+</body>
+</html>
