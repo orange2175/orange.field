@@ -1,0 +1,58 @@
+
+     
+      
+        $(function(){
+            $(".chan").click(function(){
+            for( i=1; i<22
+            ; i++ ){
+            if( i == 22 ){
+            j = 1;
+            }else{
+            j = i + 1;
+            }
+           if( $( "#cm" + i ).css( "display" ) != "none" ){
+            $( "#cm" + i ).hide();
+            $( "#cm" + j ).show();
+            break;
+            }
+            }
+            });
+            });
+          
+    
+    
+            $('[data-text-split]').each((index, element) => {
+        const brSplitted = $(element).html().split('<br>');
+        let mapped = [];
+        brSplitted.forEach((item, index) => {
+            const itemSplitted = item.split('');
+            const brFormatted = itemSplitted.map((item) => {
+                return `<span data-text-wrap><span data-text-inner>${item}</span></span>`;
+            });
+            mapped[index] = brFormatted.join('');
+        })
+        const result = mapped.join('<br>');
+        $(element).html(result);
+    
+        const length = $(element).find('[data-text-wrap]').length;
+        for (let i = 0; i < length; i++) {
+            $(element).find('[data-text-inner]').eq(i).css('animation', `text 30ms ${30 * i}ms forwards`);
+        }
+    });
+    
+    
+    function linkCheck(btn){
+      if ( btn == 1 ){
+        link = "猿轡";
+        href = "novel - gag.html";
+      }else if ( btn == 2 ){
+        link = "ガムテープ";
+        href = "novel - duct.html";
+      }
+     
+      ret = confirm(link + "を選択します。");
+      if (ret == true){
+        location.href = href;
+      }
+    }
+    
