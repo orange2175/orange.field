@@ -1,0 +1,88 @@
+body{
+   background-color: rgb(153, 153, 153);
+   color:red;
+}
+
+h1{
+  
+   
+padding:10px;
+   color:red;
+   font-size:20px;
+}
+
+
+.inquiry {
+   background-image: url(../ultra/DSC_1116copy.jpg);
+  
+   padding:20px;
+   background-repeat:no-repeat; /*背景画像の繰り返しを解除*/
+   background-size:100% 200px; 
+
+}
+
+.i_img{
+   margin-top:10px;
+}
+
+a{
+ margin:10px;
+}
+
+.text{
+ margin:10px;
+ padding:10px;
+text-align: center;
+ 
+  margin:0 auto;
+  background-color: aliceblue;
+}
+
+.text img{
+   width:200px;
+   height:200px;
+   margin-top:10px;
+  
+}
+
+p{
+   margin:10px;
+    margin-bottom:10px;
+    font-size:12px;
+    line-height: 17px;
+}
+
+ul.right {
+   text-align: right;
+ padding-bottom:5px;
+ }
+ 
+ li {
+   display: inline;
+   padding: 0 10px;
+ 
+   border-right: #ddd 1px solid;
+
+ }
+ 
+ li:last-child {
+   border-right: none;
+ }
+
+
+ .fot{
+   background-color: bisque;
+   text-align: center;
+ }
+
+
+
+
+.target {
+   transition: .5s ;
+   transform: rotateY( 0deg ) ;
+}
+
+.container:hover .target {
+   transform: rotateY( 360deg ) ;
+}
