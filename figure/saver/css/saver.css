@@ -1,0 +1,211 @@
+
+
+.story{
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.title_top{
+background-color: aliceblue;
+width:100%;
+margin-bottom:5px;
+}
+
+.story img{
+    width:300px;
+    height:320px;
+}
+
+.text{
+    background-color: red;
+    padding:20px;
+   width:300px;
+   margin:0 auto;
+   text-align: center;
+   margin-bottom:20px;
+}
+.text2{
+    background-color: rgb(107, 107, 239);
+    padding:20px;
+   width:300px;
+   margin:0 auto;
+   text-align: center;
+}
+.text3{
+    background-color:burlywood;
+    padding:20px;
+   width:300px;
+   margin:0 auto;
+   text-align: center;
+   margin-bottom:20px;
+}
+
+.text4{
+    background-color:rgb(181, 181, 22);
+    padding:20px;
+   width:300px;
+   margin:0 auto;
+   text-align: center;
+}
+
+.text5{
+    background-color:black;
+    color:red;
+    padding:20px;
+   width:300px;
+   margin:0 auto;
+   text-align: center;
+}
+
+.b-red{ 
+    background-image:url("../color/DSCred.jpg");
+    margin-top:10px;
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+   
+    color:aliceblue;
+}
+
+.b-blue{ 
+    background-image:url("../color/DSCblue.jpg");
+    margin-top:10px; 
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+   
+    color:aliceblue;
+}
+
+.b-brown{ 
+    background-image:url("../color/DSCbrown.jpg");
+    margin-top:10px; 
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+   
+    color:aliceblue;
+}
+
+.b-yellow{ 
+    background-image:url("../color/DSCyellow.jpg");
+    margin-top:10px; 
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+   
+    color:aliceblue;
+}
+
+.b-green{
+    background-image:url("../color/DSCgreen.png");
+    width:100%;
+    margin-top:10px; 
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+   
+    color:aliceblue;
+}
+
+
+
+.red{
+    color:red;
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+
+}
+
+.blue{
+    color:blue;
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+}
+
+.yellow{
+    color:rgb(181, 181, 22);
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+}
+
+.brown{
+    color:brown;
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+}
+
+.green{
+    color:green;
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+}
+
+.white{
+    
+    background-color: aliceblue;
+    width:300px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+
+.purple{
+    background-color:blueviolet;
+    width:330px;
+    margin:0 auto;
+}
+.s123{
+    width:300px;
+    margin:0 auto;
+    background: linear-gradient(to right,red, yellow, blue)
+    
+}
+
+img.example1 {
+    width: 300px;
+    height: 420px;
+   text-align: center;
+    }
+
+.ex{
+    padding-top:10px;
+    font-size: 12px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+  
+    line-height:100px;
+    
+    z-index: 100;
+  }
+  
+
+.ex_item1{
+    background-color:black;
+    width:50%;
+    height: 100px; 
+    color:white;
+  
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+  }
+  .ex_item2{
+    background-color:brown;
+    width:50%;
+    height: 100px;
+    color:aquamarine;
+  
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+  }
+  .ex img{
+    width:300px;
+    height:300px;
+  }
+ 
+ 
