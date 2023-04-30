@@ -1,0 +1,62 @@
+.top{
+    background-color: aliceblue;
+ 
+}
+
+
+.list{
+background-color: antiquewhite;
+padding:20px;
+
+}
+
+.rule{
+background-color: rgb(136, 136, 239);
+color: aliceblue;
+    
+    margin: 30px;
+    border-radius: 10px;
+}
+
+h1{
+background-color: aquamarine;
+text-align: center;
+}
+
+h2{
+color: saddlebrown;
+text-align: center;
+}
+h4{
+    background-color: cadetblue;
+}
+
+p{
+text-align: center;
+font-size: 23px;
+}
+
+table{
+    background-color: aliceblue;
+  width: 350px;
+  margin:0 auto;
+border: 1px solid;
+}
+td{
+border: 1px solid;
+}
+
+.blown{
+background-color: burlywood;
+text-align: center;
+}
+
+.green{
+background-color:rgb(138, 244, 138);
+text-align: center;
+}
+
+.purple{
+background-color:plum;
+text-align: center;
+}
