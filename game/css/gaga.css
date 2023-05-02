@@ -1,8 +1,20 @@
 .top{
     background-color: aliceblue;
- 
+    text-align: center;
+  
 }
 
+.ban-top{
+       background-color: red;
+    color:aliceblue;
+    border:3px solid black;
+    margin:10px;
+}
+.ban{
+    background-color: red;
+    color:aliceblue;
+    /* margin-bottom: 20px; */
+}
 
 .list{
 background-color: antiquewhite;
@@ -31,9 +43,19 @@ h4{
     background-color: cadetblue;
 }
 
-p{
+.text-top{
+      background-color: aliceblue;
+}
+
+.text{
+  
 text-align: center;
 font-size: 23px;
+}
+
+.text2{
+    font-size: 25px;
+    color:red;
 }
 
 table{
@@ -41,6 +63,7 @@ table{
   width: 350px;
   margin:0 auto;
 border: 1px solid;
+
 }
 td{
 border: 1px solid;
