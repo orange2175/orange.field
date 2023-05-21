@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>みかん農園</title>
+
+<link rel="stylesheet" href="css/mikan1.css.css"/> 
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="top">
+
+   
+   <p class="text">
+    <img src="img/escape3.png"><br>
+    　蹴ったボールがトタンを打ち抜き、倒れてきた。<br>
+    　その破片を使って柱につながった縄を必死で擦り続けたことで柱の縄だけ解くことが出来た。<br>
+
+
+    「ふぅ……」<br>
+    　手の縄は解けていないが、今は逃げる方が優先だと急ぎ扉を出る。<br>
+    <img src="img/escape2.png"><br>
+    　だが、その先では瓦礫やガラスの破片が散らばっていてこの先へ進めない。<br>
+    ここへ連れてこられた時に靴を落としてしまったようだ。ガラスを踏んでこの先を進むことは出来ない。<br>
+    なにかこの場を出られる方法を探さねば
+    
+</p>
+
+
+    <div class="border">
+<p onclick="alert0()"><span onClick="document.all.item('moji0').style.visibility='visible'"><img class="block0" src="img/base.png"></span></p>
+<!-- <p onclick="alert1()"><span onClick="document.all.item('moji1').style.visibility='visible'"><img id="es" class="block1" src="img/download.png"></span></p> -->
+<p onclick="alert2()"><span onClick="document.all.item('moji2').style.visibility='visible'"><img id="es" class="block2" src="img/download1.png"></span></p>
+<p onclick="alert3()"><span onClick="document.all.item('moji3').style.visibility='visible'"><img id="es" class="block3" src="img/download2.png"></span></p>
+<!-- <p onclick="alert4()"><span onClick="document.all.item('moji4').style.visibility='visible'"><img id="es" class="block4" src="img/download3.png"></span></p> -->
+<p onclick="alert5()"><span onClick="document.all.item('moji5').style.visibility='visible'"><img id="es" class="block5" src="img/download3.png"></span></p>
+<p onclick="alert6()"><span onClick="document.all.item('moji6').style.visibility='visible'"><img id="es" class="block6" src="img/download3.png"></span></p>
+<p onclick="alert7()"><span onClick="document.all.item('moji7').style.visibility='visible'"><img id="es" class="block7" src="img/download2.png"></span></p>
+</div>
+
+
+
+<!--  -->
+
+   
+
+    <!--  -->
+
+    <div class="content">
+        <p class="content_item">◇獲得したアイテム</p>
+    
+    <div ID="moji0" style="visibility:hidden;">
+        
+        </div>
+    <div ID="moji1" style="visibility:hidden;">
+         トタン
+        </div>
+    
+    <div ID="moji2" style="visibility:hidden;">
+       柱
+        </div>
+    
+     <div ID="moji3" style="visibility:hidden;">
+         ボール
+
+        </div>
+
+    <div ID="moji4" style="visibility:hidden;">
+      机
+        </div>
+
+    <div ID="moji5" style="visibility:hidden;">
+           コンベア
+    </div>
+
+    <div ID="moji6" style="visibility:hidden;">
+        出口
+ </div>
+
+    <div ID="moji7" style="visibility:hidden;">
+        カーペット
+ </div>
+
+    <p id="mojix" onclick="kotae()">割りばし</p>
+    
+
+
+    <div id="text-button"><p id="text"></p></div>
+
+   
+       
+    </div>   
+    
+<!--  -->
+
+<div class="question">
+
+    
+    <p class="content_item">◇脱出行動</p>
+
+    <form name="f">
+      
+        <input name="q1" autocomplete="off">
+        <form name="f">
+            <select name="q2">
+            <option>-選択肢-</option>
+            <option>を開く</option>
+            <option>を叩く</option>
+            <option>を敷く</option>
+            <option>を蹴とばす</option>
+            <option>で縄を切る</option>
+            <option>を突く</option>
+           
+            </select>
+           
+            <p>
+   
+                <input type="button"value="回答" onclick="kotae();kotae1();showPrompt();" >
+   
+        
+    
+    </form>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    <!--  -->
+<script>
+
+
+function alert0() {
+    alert('手は堅く縛られている\n柱からは解放されてどうにか動けそうだ\n');}
+function alert1() {
+    alert('立てかけられたトタンだ。壁に立てかけられているけれど結構脆そうだ');}
+function alert2() {
+    alert('柱だ。\nここに繋がれている');}
+function alert3() {
+    alert('愛用のボールだ。\n足をのばせば届くかも');}
+function alert4() {
+    alert('');}
+function alert5() {
+    alert('コンベアだ\nどこにつながっているか分からないが\n今は動かなさそうだ');}
+function alert6() {
+    alert('出口がある。今は出れそうにない');}
+function alert7() {
+    alert('カーペットだ\n丸まった状態で壁に立てかけられている');}
+
+
+
+    document.getElementById("mojix").style.display ="none";
+   
+    function kotae()
+{
+
+     
+    const mojix = document.getElementById("mojix");
+if(f.q1.value == "ゴミ袋" && f.q2.value == "を探る"){
+ alert('中から「割りばし」が出て来た');
+ mojix.style.display ="block";
+}
+
+
+
+
+
+else if(f.q1.value == "カーペット" && f.q2.value == "を敷く" || f.q1.value == "割り箸" && f.q2.value == "で縄を切る")
+ f.q1.value=document.location.href = 'escape.page3.html';
+ else if(f.q1.value == "鉄骨" && f.q2.value == "を蹴とばす")
+ f.q1.value=document.location.href = 'escape.page1-1.html';
+else{
+
+alert('この行動は意味がないようだ');
+}}
+
+
+
+</script>
+
+</body>
+</html>
