@@ -7,9 +7,10 @@
    
     <title>Document</title>
 </head>
-<body> 
- <span class="btn"><img src="head (5).png" width="300" height="400" usemap="#ImageMap" id="area1" /></span>
-    <!-- <img src="face (2).png" usemap="#ImageMap" id="area2" /> -->
+
+
+<body> <button><a href="cookie.html">クッキーをあげる</a></button><br>
+ <img src="head (5).png" width="300" height="420" usemap="#ImageMap" id="area1" />
 
 
 <div id="sample1" class="text">
@@ -21,6 +22,9 @@
     <area shape="circle" coords="188,92,60" href="#"  onclick="alert1()" /> 
     <area shape="rect" coords="13,338,150,538" href="#"  onclick="alert2()" />
     </map>
+
+
+    <a href="../裏みかん農園.html">裏みかん農園に戻る</a>
 </body>
 
 
@@ -32,6 +36,10 @@
         border: 1px solid black;
         width: 350px;
         height:100px;
+       }
+
+       #area2{
+        visibility: hidden;
        }
 
  
@@ -66,7 +74,6 @@ sample1.innerHTML = "ちょっと、撫でないでよ";
 }}
 
 // 
-
 function alert2(){
 count++;
 if (count == 1){
@@ -96,11 +103,22 @@ sample1.innerHTML = "な…なにすんの…";
 }}
 
 
+// 
 
+document.getElementById("example").style.visibility ="hidden";
+function clickBtn(){
+    const example = document.getElementById("example");
+    if(example.style.visibility=="visible"){
+        example.style.visibility ="hidden";
+    }else{
+        example.style.visibility ="visible";
+    }
+}
 
 
 </script>
 
 </html>
+
 
 
