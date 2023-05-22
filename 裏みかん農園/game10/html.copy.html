@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<body> 
+ <span class="btn"><img src="head (5).png" width="300" height="400" usemap="#ImageMap" id="area1" /></span>
+    <!-- <img src="face (2).png" usemap="#ImageMap" id="area2" /> -->
+
+
+<div id="sample1" class="text">
+<p id="text">むー……</p>
+</div>
+
+
+    <map name="ImageMap">
+    <area shape="circle" coords="188,92,60" href="#"  onclick="alert1()" /> 
+    <area shape="rect" coords="13,338,150,538" href="#"  onclick="alert2()" />
+    </map>
+</body>
+
+
+<style>
+
+       #sample1{
+        padding:10px;
+       
+        border: 1px solid black;
+        width: 350px;
+        height:100px;
+       }
+
+ 
+   
+  
+</style>
+
+<script>
+var count = 0;
+var sampleArea = document.getElementById("sample1");
+
+function alert1(){
+count++;
+if (count == 1){
+document.getElementById("area1").src = "head (4).png";
+sample1.innerHTML = "ちょっと、撫でないでよ";
+} else if (count == 3){
+    document.getElementById("area1").src = "head (3).png";
+    sample1.innerHTML = "むぅ……";
+} else if(count == 6){
+    document.getElementById("area1").src = "head (4).png";
+    sample1.innerHTML = "ふ、ふんっ……";
+} else if(count == 11){
+    document.getElementById("area1").src = "head (2).png";
+    sample1.innerHTML = "そんなことされたって、嬉しくないから……";
+}   else if(count == 15){
+    document.getElementById("area1").src = "head (1).png";
+    sample1.innerHTML = "もうっ……もう少し優しくしてよね";
+}else if(count == 16){
+    
+    sample1.innerHTML = "～Clear～";
+}}
+
+// 
+
+function alert2(){
+count++;
+if (count == 1){
+document.getElementById("area1").src = "tickle (4).png";
+sample1.innerHTML = "ちょっと…くすぐらないでよ…";
+} else if (count == 2){
+document.getElementById("area1").src = "tickle (4).png";
+sample1.innerHTML = "な…なにすんの…";
+} else if (count == 5){
+    document.getElementById("area1").src = "tickle (3).png";
+    sample1.innerHTML = "ほんと……やめてっ";
+} else if(count == 6){
+    document.getElementById("area1").src = "tickle (2).png";
+    sample1.innerHTML = "あっ……ちょっ！";
+} else if(count == 11){
+    document.getElementById("area1").src = "tickle (4).png";
+    sample1.innerHTML = "んっ……くくっ……んんんっ";
+}   else if(count == 14){
+    document.getElementById("area1").src = "tickle (1).png";
+    sample1.innerHTML = "あははははははっ！";
+}else if(count == 16){
+    document.getElementById("area1").src = "head (1).png";
+    sample1.innerHTML = "もうっ……最悪っ……";
+   
+}else if(count == 17){
+    sample1.innerHTML = "～clear～";
+}}
+
+
+
+
+
+</script>
+
+</html>
+
+
