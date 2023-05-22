@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<body>
+    <button><a href="html.copy.html">クッキーをとりあげる</a></button><br>
+ <img src="cookie (4).png" width="300" height="420" usemap="#ImageMap" id="area1" />
+
+
+<div id="sample1" class="text">
+<p id="text">むぁっ……もぐ</p>
+</div>
+
+
+    <map name="ImageMap">
+    <area shape="circle" coords="188,92,60" href="#"  onclick="alert1()" /> 
+    <area shape="rect" coords="13,338,150,538" href="#"  onclick="alert2()" />
+    </map>
+</body>
+
+
+<style>
+
+       #sample1{
+        padding:10px;
+       
+        border: 1px solid black;
+        width: 350px;
+        height:100px;
+       }
+
+       #area2{
+        visibility: hidden;
+       }
+
+ 
+   
+  
+</style>
+
+<script>
+var count = 0;
+var sampleArea = document.getElementById("sample1");
+
+function alert1(){
+count++;
+if (count == 1){
+document.getElementById("area1").src = "cookie (4).png";
+sample1.innerHTML = "あむっ…もぐ";
+} else if (count == 3){
+    document.getElementById("area1").src = "head (3).png";
+    sample1.innerHTML = "むぅ……";
+} else if(count == 6){
+    document.getElementById("area1").src = "cookie (3).png";
+    sample1.innerHTML = "もがっ……んっ";
+} else if(count == 11){
+    document.getElementById("area1").src = "cookie (2).png";
+    sample1.innerHTML = "んんんっ…";
+}   else if(count == 15){
+    document.getElementById("area1").src = "head (1).png";
+    sample1.innerHTML = "ちょっと、そんな無理やり入れないでよ…";
+}else if(count == 16){
+    
+    sample1.innerHTML = "～Clear～";
+}}
+
+// 
+
+
+
+// 
+
+document.getElementById("example").style.visibility ="hidden";
+function clickBtn(){
+    const example = document.getElementById("example");
+    if(example.style.visibility=="visible"){
+        example.style.visibility ="hidden";
+    }else{
+        example.style.visibility ="visible";
+    }
+}
+
+
+</script>
+
+</html>
+
+
