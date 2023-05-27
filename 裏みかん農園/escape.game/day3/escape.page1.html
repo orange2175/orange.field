@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>みかん農園</title>
+
+<link rel="stylesheet" href="css/reset.css"/> 
+<link rel="stylesheet" href="css/mikan.css.css"/> 
+
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="top">
+    <img class="escape1" src="img/escape (5).png">
+    
+</p>
+
+
+    <div class="border">
+<p onclick="alert0()"><span onClick="document.all.item('moji0').style.visibility='visible'"><img class="block0" src="img/base.png"></span></p>
+<p onclick="alert1()"><span onClick="document.all.item('moji1').style.visibility='visible'"><img id="es" class="block1" src="img/download.png"></span></p>
+<p onclick="alert5()"><span onClick="document.all.item('moji5').style.visibility='visible'"><img id="es" class="block5" src="img/download3.png"></span></p>
+<p onclick="alert2()"><span onClick="document.all.item('moji2').style.visibility='visible'"><img id="es" class="block2" src="img/download1.png"></span></p>
+<p onclick="alert3()"><span onClick="document.all.item('moji3').style.visibility='visible'"><img id="es" class="block3" src="img/download2.png"></span></p>
+ <p onclick="alert4()"><span onClick="document.all.item('moji4').style.visibility='visible'"><img id="es" class="block4" src="img/download3.png"></span></p>
+<p onclick="alert6()"><span onClick="document.all.item('moji6').style.visibility='visible'"><img id="es" class="block6" src="img/download3.png"></span></p>
+<p onclick="alert7()"><span onClick="document.all.item('moji7').style.visibility='visible'"><img id="es" class="block7" src="img/download2.png"></span></p>
+</div>
+
+
+
+<!--  -->
+
+   
+
+    <!--  -->
+
+    <div class="content">
+        <p class="content_item">◇獲得したアイテム</p>
+    
+    <div ID="moji0" style="visibility:hidden;">
+        
+        </div>
+    <div ID="moji1" style="visibility:hidden;">
+         戸棚
+        </div>
+    
+    <div ID="moji2" style="visibility:hidden;">
+       ベッド
+        </div>
+    
+     <div ID="moji3" style="visibility:hidden;">
+         座椅子
+
+        </div>
+
+    <div ID="moji4" style="visibility:hidden;">
+      机
+        </div>
+
+    <div ID="moji5" style="visibility:hidden;">
+           ダンボール
+    </div>
+
+    <div ID="moji6" style="visibility:hidden;">
+        枕
+ </div>
+
+    <div ID="moji7" style="visibility:hidden;">
+        
+ </div>
+
+ 
+    
+
+
+    <div id="text-button"><p id="text"></p></div>
+
+   
+       
+    </div>   
+    
+<!--  -->
+
+<div class="question">
+
+    
+    <p class="content_item">◇脱出行動</p>
+
+    <form name="f">
+      
+        <input name="q1" autocomplete="off">
+        <form name="f">
+            <select name="q2">
+            <option>-選択肢-</option>
+            <option>を閉じる</option>
+            <option>を敷く</option>
+            <option>を分解する</option>
+            <option>を開ける</option>
+            <option>を流す</option>
+            <option>を観察する</option>
+            <option>で縄を切る</option>
+            <option>を引っ張り出す</option>
+            
+            </select>
+           
+            <p>
+   
+                <input type="button"value="回答" onclick="kotae();kotae2()";>
+   
+        
+    
+    </form>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    <!--  -->
+<script>
+
+
+function alert0() {
+        alert('手は堅く縛られている\n足は折りたたまれた状態でガムテープを巻かれて\n動きも制限されそうだ');}
+    function alert1() {
+        alert('戸棚だ\n大きさは私の身長よりも高い');}
+    function alert2() {
+        alert('ベッドだ\n下にものがしまえるタイプだ');}
+    function alert3() {
+        alert('座椅子だ\n組み立て式のそんなに座り心地はよくない');}
+    function alert4() {
+        alert('机がある。\nダイアル式のキーボックスで引き出しが施錠されている\n');}
+    function alert5() {
+        alert('段ボールだ\n冬物がしまってあって、結構丈夫そうだ');}
+    function alert6() {
+        alert('枕だ\n特に変わった所もない');}
+    function alert7() {
+        alert('上に何かあるが、ここからでは確認できない');}
+    
+
+
+    // document.getElementById("mojix").style.display ="none";
+   
+function kotae(){
+if(f.q1.value == "机" && f.q2.value == "を開ける"){
+var result1 = prompt('ダイヤル式の引き出しがある暗証番号は？')
+}if( result1 === '2489') {
+    location = 'escape.page2.html';
+}
+else if(f.q1.value == "ダンボール" && f.q2.value == "を引っ張り出す"){
+    alert('足が折りたたまれた状態では難しい');}
+else if(f.q1.value == "ダンボール" && f.q2.value == "を観察する"){
+    alert('よくみると数字が書いてある\n2489');}
+else if(f.q1.value == "座椅子" && f.q2.value == "を観察する"){
+ alert('ネジ式のものだ\nドライバーでもあれば外せるかも');}
+ else if(f.q1.value == "戸棚" && f.q2.value == "を観察する"|| f.q1.value == "戸棚" && f.q2.value == "を開ける"){
+ alert('「使いません」と張り紙がされてる\n戸棚の中は関係ないようだ');}
+ 
+else {
+alert('この行動は意味がなさそうだ');
+}}
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
