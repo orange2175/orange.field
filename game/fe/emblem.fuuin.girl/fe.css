@@ -1,0 +1,68 @@
+.top{
+    padding:10px;
+    width:80%;
+    margin:0 auto;
+    font-weight: 700;
+    border-bottom:double 4px skyblue;
+}
+
+.c_top{
+    padding:20px;
+    color:rgb(207, 206, 206);
+}
+
+.contant2{
+    padding:20px;
+    line-height: 27px;
+
+    margin-bottom: 40px;
+}
+
+p{
+    padding:20px;
+    line-height: 26px;
+}
+
+.red{
+    color:red;
+    font-weight: 700;
+}
+
+
+
+/*  */
+
+
+.inquiry{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:20px;
+    background-color: crimson;
+    color:white;
+
+}
+
+.text{
+    
+    line-height: 23px;
+   width:100%;
+   margin:0 auto;
+    
+}
+
+.image{
+    text-align: center;
+}
+.image img{
+    width:270px;
+    height:200px;
+    padding:10px;
+}
+
+.text img{
+    padding:10px;
+    width:270px;
+    height:200px;
+  
+}
